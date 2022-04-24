@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://emtlab2backend.herokuapp.com/")
 @RequestMapping("/api")
 public class BookRestController {
     private final BookService bookService;
